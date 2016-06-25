@@ -3,7 +3,7 @@
 
     if (typeof require === "function" && typeof exports === "object" && typeof module === "object") {
         // CommonJS or Node: hard-coded dependency on "knockout"
-        factory(require("knockout"), require("chart"), exports);
+        module.exports = factory;
     } else if (typeof define === "function" && define["amd"]) {
         // AMD anonymous module with hard-coded dependency on "knockout"
         define(["knockout", "chart", "exports"], factory);
