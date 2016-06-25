@@ -1,0 +1,19 @@
+{
+  "name": "knockout.chart",
+  "version": "1.0.0",
+  "description": "Knockout Binding for charts",
+  "main": "./src/knockout.chart.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vikalpj/knockout.chart.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vikalpj/knockout.chart/issues"
+  },
+  "homepage": "https://github.com/vikalpj/knockout.chart#readme"
+}
